@@ -1,0 +1,2 @@
+# Solving-N-queen-instances-using-hill-climbing-heuristics-random-restart-and-simulated-annealing-
+N-Queen problem is a standard problem consisting of a n*n matrix with n queens randomly placed in the boxes. We need to arrange these chess queens in a manner that no queen is able to attack another queen that is, all the queens are safe. For Example, consider a 4*4 matrix with 4 chess queens, one of the possible solutions of the 4-Queen problem would be arranging the queens as shown below.    Q           Q Q           Q
