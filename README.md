@@ -1,4 +1,4 @@
-# Solving-N-queen-instances-using-hill-climbing-heuristics-random-restart-and-simulated-annealing-
+# Solving-N-queen-instances-using-hill-climbing-heuristics-random-restart-and-simulated-annealing and visualising performane using Javafx-
 N-Queen problem is a standard problem consisting of a n*n matrix with n queens randomly placed in the boxes. We need to arrange these chess queens in a manner that no queen is able to attack another queen that is, all the queens are safe.
 About Hill Climbing Algorithm
 Hill Climbing is a heuristic search used for mathematical optimisation problems in the field of Artificial Intelligence.
@@ -19,3 +19,6 @@ The algorithm repeatedly explores the problem space, that is it conducts a hill 
 ## 4. Simulated Annealing
 A hill-climbing algorithm which never makes a move towards a lower value guaranteed to be incomplete because it can get stuck on a local maximum. And if the algorithm applies a random walk, by moving a successor, then it may be complete but not efficient. 
 
+Each method is tested upon inputs ranging from 0 - 500 depending upon the time taken to solve the problem for example with Hill Climbing solving for N = 40 on my machine took 85 seconds as plotted in the graphs. Of all the method hill climbing took longest with number of iteration. Failing to solve the problem we tried again with new states as will be visible in the code files for each. Data file generated generated during the final run (captured in video) are included in the jar file submitted with csv extension.
+C++ compiled with g++ is used to code the basic logic of the tree algorithms. Clock with precision 6 is used to measure the time between each solution. Care has been taken care to avoid I/O overheads in calculation of Runtime. Data generated in form of ‘N’ and Runtime is logged into a CSV file in runtime dynamically. Parallel to this operation java program is running which loads the the CSV and displays it against the scale of integer N and double time. This data is updated every 1 seconds which is configurable for faster updation. 
+To develop the visualizaiton aspect we used java openjdk version 11  javafx 11.02 library and maven in Intellijidea.
